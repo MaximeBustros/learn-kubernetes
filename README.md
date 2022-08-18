@@ -3,14 +3,14 @@ Kubernetes
 
 Terms
 =====
-Node: A node is a physical server or virtual server on which kubernetes is installed
-Cluster: A cluster is a set of Nodes grouped together
-Master Node:
-    Node with kubernetes installed that is reponsible for the actual orchestration. 
-    Contains the: API server, ETCD, Controller, Scheduler
+    Node: A node is a physical server or virtual server on which kubernetes is installed
+    
+    Cluster: A cluster is a set of Nodes grouped together
+    
+    Master Node: Node with kubernetes installed that is reponsible for the actual orchestration.  
+    It contains the: API server, ETCD, Controller, Scheduler
 
-Worker Node: 
-    Node with kubernetes installed that is responsible for running containers
+    Worker Node: Node with kubernetes installed that is responsible for running containers  
     It Contains: kubelet, container runtime
 
 What happens when you install kubernetes on a server
